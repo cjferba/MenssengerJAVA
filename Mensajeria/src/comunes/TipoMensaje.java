@@ -1,0 +1,22 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package comunes;
+
+/**
+ *
+ * @author Alex Moreno
+ */
+public enum TipoMensaje {
+    AUTENTIFICACION_REQUEST,
+    AUTENTIFICACION_ACK,
+    COMPROBAR_ESTADO_USUARIO_REQUEST,
+    COMPROBAR_ESTADO_USUARIO_ACK,
+    CONSULTAR_LOCALIZACION_USUARIO_REQUEST,
+    CONSULTAR_LOCALIZACION_USUARIO_ACK,
+    COMUNICAR_NOMBRE_Y_LOCALIZACION_Y_ESTADO_REQUEST,
+    COMUNICAR_NOMBRE_Y_LOCALIZACION_Y_ESTADO_ACK,
+    FINALIZAR_COMUNICACION,
+    ERROR
+}
